@@ -10,7 +10,7 @@
 
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-3">
-    <a class="navbar-brand" href="#">TELEPHONE DIRECTORY</a>
+    <a class="navbar-brand" href="{{ route('home') }}">TELEPHONE DIRECTORY</a>
 </nav>
 
 <div class="container">

@@ -2,3 +2,8 @@ composer dump-autoload - оновлення файлів автолоадера
 
 Ran the seeder using php artisan db:seed --class=PhonebookSeeder.
 
+php artisan serve - запуск сервера проекта ларавел
+
+
+php artisan make::controller nameofcontroler  - створення нового контролера
+
