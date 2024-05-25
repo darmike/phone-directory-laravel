@@ -36,6 +36,10 @@
 
     </div><!-- ./table-responsive-->
 
-        {{ $users->links() }}
+        {{ $users->appends(['s'=>request()->s])->links() }}
+
+    @else
+        <p>Not found number...</p>
+
     @endif
 @endsection
